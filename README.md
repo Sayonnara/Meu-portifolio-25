@@ -1,3 +1,18 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Front--End-Developer-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Online-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Feito%20com-%E2%9D%A4-red?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="https://sayonnara.github.io/PORTIFOLIO/">
+    <img src="https://img.shields.io/badge/Acessar%20Portf%C3%B3lio-000000?style=for-the-badge&logo=google-chrome">
+  </a>
+</p>
+
+
+
 # 🌐 Portfólio Profissional — Sayonnara Seixas
 
 
