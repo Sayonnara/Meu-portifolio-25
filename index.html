@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Portfólio de Sayonnara — Front-end developer">.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN Font Awesome (sem integrity para evitar bloqueio por hash errado) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Adicione dentro do <head> -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portifolio | Sayonnara</title>
+  </head>
+
+<body class="light-theme">
+
+<main>
+    <header>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#front-end">Front-End</a></li>
+                <li><a href="#back-end">Back-End</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+              </ul>
+
+              <!-- coloque dentro do header -->
+        <div class="toggle-wrapper">
+          <!-- checkbox semântico (visível: não usar id duplicado) -->
+          <input type="checkbox" id="themeToggle" class="theme-toggle" />
+          <!-- label estilizado serve como "interruptor" -->
+          <label for="themeToggle" class="toggle" aria-hidden="false" title="Alternar tema">
+            <span class="toggle-track" aria-hidden="true">
+              <i  id="moon" class= "fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+              <i id="sun"  class="fa-solid fa-sun icon-sun" role="button" tabindex="0"  aria-label="Alternar tema"></i>
+              <span class="thumb" aria-hidden="true"></span>
+            </span>
+          </label>
+        </div>
+
+      
+    </header>
+     
+
+
+    <section id="home" class="principal">
+      <div class="title">
+        <h1>Olá, me chamo!</h1>
+        <h2 class="name">
+          <span>Sayonnara</span>
+          <span>Sayonnara</span>
+          <span>Front-End Developer</span>
+        </h2>
+        <p>
+          Desenvolvedora criativa e focada em construir experiência e inovação.
+        </p>
+
+        <!-- Ícone visível e botão com o ícone dentro do a -->
+        <a
+          href="CV/SAYONNARA SEIXAS SILVA _ Front-End Developer.pdf"
+          download
+          class="botao"
+        >
+          <i class="cv" class="fa-solid fa-file-arrow-down">
+            Currículo</i
+          >
+        </a>
+
+        <div class="social-media">
+          <p>Redes Sociais</p>
+          <a href="https://github.com/Sayonnara" target="_blank" rel="noopener noreferrer" class="link">
+            <img src="img-linguage/github-color-svgrepo-com.svg" alt="git" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sayonnaradev/"
+            target="”_blank”"
+            class="link"
+          >
+            <img src="img-linguage/linkedin.png" alt="linkedin" />
+          </a>
+        </div>
+      </div>
+
+      <section class="principal">
+        <div data-aos="zoom-in-up" class="persona">
+          <img src="img/I'm.jpeg" alt="imagem da desenvolvedora" />
+
+        </div>
+
+        <div class="linguage">
+          <div class="icon" data-label="HTML5">
+            <img
+              src="img-linguage/html-svgrepo-com.svg"
+              alt="html5"
+            />
+          </div>
+          <div class="icon" data-label="CSS3">
+            <img src="img-linguage/css-3-svgrepo-com.svg" alt="css3" />
+          </div>
+          <div class="icon" data-label="JavaScript">
+            <img
+              src="img-linguage/js-official-svgrepo-com.svg"alt="javascript" />
+          </div>
+
+          <div class="icon" data-label="React">
+            <img src="img-linguage/node-js-svgrepo-com (1).svg" alt="React" />
+          </div>
+
+          <div class="icon" data-label="Python">
+            <img src="img-linguage/python-svgrepo-com.svg" alt="Python" />
+          </div>
+          <div class="icon" data-label="Python">
+            <img src="img-linguage/figma-svgrepo-com.svg" alt="figma" />
+          </div>
+          <div class="icon" data-label="Python">
+            <img src="img-linguage/n8n.png" alt="n8n" />
+          </div>
+          <div class="icon" data-label="Python">
+            <img src="img-linguage/docker-svgrepo-com.svg" alt="docker" />
+          </div>
+          <div class="icon" data-label="Python">
+            <img src="img-linguage/npm-svgrepo-com (1).svg" alt="npm" />
+          </div>
+          <div class="icon" data-label="Python">
+            <img src="img-linguage/api-svgrepo-com.svg" alt="api" />
+          </div>
+          <div class="icon" data-label="Python">
+            <img src="img-linguage/flutter-svgrepo-com (1).svg" alt="flutter" />
+          </div>
+          <div class="icon" data-label="Python">
+            <img src="img-linguage/github-color-svgrepo-com.svg" alt="github" />
+          </div>
+
+        </div>
+        
+      </section>
+    </section>
+
+      
+     <section id="skills" data-aos="fade-up">
+        <div class="quem-sou">
+            <span> Sobre mim</span>
+          <p>
+           
+            Sou a Sayonnara, moro no interior de São Paulo e tenho 38 anos. Meu dia a dia é movido pela curiosidade e pela vontade de aprender algo novo no mundo da tecnologia.
+            Além de programar, adoro cuidar da minha casa e dos meus cinco pets, que tornam meus dias mais leves e divertidos. Nos meus momentos de descanso, gosto de assistir séries, ler, ouvir música e estar em contato com a natureza, que me inspira e me ajuda a manter o equilíbrio.
+            Também sou criadora de conteúdo, e acredito que compartilhar conhecimento e boas ideias é uma das formas mais bonitas de evoluir e inspirar outras pessoas.
+            Tenho muito entusiasmo em crescer profissionalmente na área da tecnologia, contribuindo com projetos criativos e com propósito. 
+          </p>
+        </div>
+          
+      <div class="habilidades-container">
+          <h3>💻Habilidades Técnicas</h3>
+          <div class="skill">
+            <span>HTML</span>
+            <div class="barra"><div class="progresso"></div></div>
+          </div>
+          <div class="skill">
+            <span>CSS</span>
+            <div class="barra"><div class="progresso-css"></div></div>
+          </div>
+          <div class="skill">
+            <span>JAVASCRIPT</span>
+            <div class="barra"><div class="progresso-js"></div></div>
+          </div>
+          <div class="skill">
+            <span>REACT</span>
+            <div class="barra"><div class="progresso-react"></div></div>
+          </div>
+          <div class="skill">
+            <span>BANCO DE DADOS</span>
+            <div class="barra"><div class="progresso-banco-de-dados"></div></div>
+          </div>
+          <div class="skill">
+            <span>NODE.JS</span>
+            <div class="barra"><div class="progresso-node"></div></div>
+          </div>
+          <div class="skill">
+            <span>PYTHON</span>
+            <div class="barra"><div class="progresso-python"></div></div>
+          </div>
+          <div class="skill">
+            <span>N8N</span>
+            <div class="barra"><div class="progresso-n8n"></div></div>
+          </div>
+          <div class="skill">
+            <span>FIGMA</span>
+            <div class="barra"><div class="progresso-figma"></div></div>
+          </div>
+
+      </div> 
+       
+    </section>
+
+    <section id="front-end" class="projeto-secao">
+      <div data-aos="fade-up"><h2 class="titulo-secao">🖌️Projetos Front-End</h2></div>
+      
+      <div data-aos="fade-up" class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Card 1 -->
+          <div class="swiper-slide card">
+            <img src="img/refrigerante.png" alt="Projeto 1" />
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀 Ver Projeto</a
+            >
+          </div>
+
+          <!-- Card 2 -->
+          <div class="swiper-slide card">
+            <img src="img/starbabcks.png" alt="Projeto 2" />
+            <a
+              href="https://meuprojeto2.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+
+          <!-- Card 3 -->
+          <div class="swiper-slide card">
+            <img src="img/linketree.png" alt="Projeto 3" />
+            <a
+              href="https://meuprojeto3.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+
+          <!-- Card 4 -->
+          <div class="swiper-slide card">
+            <img src="img/burguer.png" alt="Projeto 4" />
+            <a
+              href="https://meuprojeto4.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+          <!-- Card 5 -->
+          <div class="swiper-slide card">
+            <img src="img/youtuberCloneTawind.png" alt="Projeto 5" />
+            <a
+              href="https://meuprojeto5.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+          <!-- Card 6 -->
+          <div class="swiper-slide card">
+            <img src="img/projetoPokemon.png" alt="Projeto 6" />
+            <a
+              href="https://sayonnara.github.io/projeto_pokemon/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+          <!-- Card 7 -->
+          <div class="swiper-slide card">
+            <img src="img/marioBros.png" alt="Projeto 7" />
+            <a
+              href="https://sayonnara.github.io/Replica-Spotify/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+          <!-- Card 8 -->
+          <div class="swiper-slide card">
+            <img src="img/numeroRandom.png" alt="Projeto 8" />
+            <a
+              href="https://sayonnara.github.io/RANDOM/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+
+        </div>
+
+        
+          <!-- Botões de navegação -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- Paginação -->
+          <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="back-end" class="secao tema-vermelho">
+      <div data-aos="fade-up"><h2 class="titulo-secao">⚙️Projetos Back-End</h2></div>
+      
+      
+      <div data-aos="fade-up" class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Card 1 -->
+          <div class="swiper-slide card">
+            <img src="" alt="Projeto 1" />
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀 Ver Projeto</a
+            >
+          </div>
+
+          <!-- Card 2 -->
+          <div class="swiper-slide card">
+            <img src="" alt="Projeto 2" />
+            <a
+              href="https://meuprojeto2.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+
+          <!-- Card 3 -->
+          <div class="swiper-slide card">
+            <img src="" alt="Projeto 3" />
+            <a
+              href="https://meuprojeto3.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+
+          <!-- Card 4 -->
+          <div class="swiper-slide card">
+            <img src="" alt="Projeto 4" />
+            <a
+              href="https://meuprojeto4.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-projeto"
+              >🚀Ver Projeto</a
+            >
+          </div>
+
+        </div>
+
+        
+          <!-- Botões de navegação -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- Paginação -->
+          <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="contato" data-aos="fade-up">
+      <div class="contatos">
+        <div >
+          <h2 class="titulo">📞Vamos conversar!</h2>
+          <p>
+            Estou aberta a novas oportunidades e adoraria ouvir sobre seus projetos ou ideias. Sinta-se à vontade para entrar em contato comigo através dos canais abaixo.
+          </p>  
+        </div>
+          <h2>📬 Contato</h2>
+
+          <a href="mailto:sayonnara.dev@gmail.com?subject=Contato%20do%20Portfólio&body=Olá%20Sayonnara,%20tudo%20bem?" class="btn-projeto">
+          ✉️ Enviar e-mail</a>
+
+          <a href="https://wa.me/12991239857" class="btn-projeto">💬 WhatsApp</a>
+          </a>
+        <a href="https://www.linkedin.com/in/sayonnaradev/" class="btn-projeto">
+          💼 LinkedIn
+        </a>
+      </div>
+    </section>
+
+
+    <footer>
+      <p>©2025 Sayonnara -Feito com muito carinho❤️.</p>
+    </footer>
+
+</main>   
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
