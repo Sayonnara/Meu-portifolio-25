@@ -192,6 +192,10 @@ Criar um portfólio visualmente forte e profissional
 
 Aprender animações modernas, carrosséis e responsividade avançada
 
+# Deploy
+- Render para Back-End
+- Vercel para Front End
+
 # 💬 Contribuições e sugestões
 
 Se quiser sugerir melhorias, fique à vontade para abrir uma issue ou enviar uma mensagem para mim 😊
